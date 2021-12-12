@@ -38,13 +38,13 @@
     </div>
   </nav>
 </header>
-<h2 style="color: rgb(228, 56, 93);position: absolute;left: 500px;top: 150px;">Choisir une methode de paiement </h2>
+<h2 style="color: rgb(228, 56, 93);position: absolute;left: 550px;top: 150px;">Choose payment method </h2>
 
 <div style="position: absolute;left: 800px;top: 300px;">
-<input id="especes" type="checkbox" onclick="pay()" > Par especes
+<input id="especes" type="checkbox" onclick="pay()" > By cash
 </div>
 <div style="position: absolute;left: 600px;top: 300px;">
-<input id="carte" type="checkbox" onclick="pay()"> Par carte bancaire
+<input id="carte" type="checkbox" onclick="pay()"> By credit card
 </div>
 <!--
 <div id="coord_carte" style="position: absolute;left: 350px;top: 400px;display: none;">
